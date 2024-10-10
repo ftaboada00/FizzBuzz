@@ -16,14 +16,11 @@ class FizzBuzz
         for ($i = 1; $i <= $n; ++$i) {
 
             if ($i % 15 == 0) {
-                echo "fizzbuzz";
-                echo "<br>";
+                echo "fizzbuzz" . "<br>";
             } else if ($i % 3 == 0) {
-                echo "fizz";
-                echo "<br>";
+                echo "fizz" . "<br>";
             } else if ($i % 5 == 0) {
-                echo "buzz";
-                echo "<br>";
+                echo "buzz" . "<br>";
             } else
                 echo "{$i} <br>";
         }
