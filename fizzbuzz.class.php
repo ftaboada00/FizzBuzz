@@ -25,8 +25,7 @@ class FizzBuzz
                 echo "buzz";
                 echo "<br>";
             } else
-                echo $i;
-            echo "<br>";
+                echo "{$i} <br>";
         }
     }
 }
